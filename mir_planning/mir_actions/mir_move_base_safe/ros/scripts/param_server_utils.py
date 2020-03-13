@@ -23,7 +23,7 @@ def get_orientation_from_param_server(orientation_goal, frame_id='/map', param_n
         return orientation 
 
 
-def get_pose_from_param_server(navigation_goal, frame_id='/map', param_ns='/script_server/base/'):
+def get_pose_from_param_server(navigation_goal, frame_id='map', param_ns='/script_server/base/'):
     """
     param navigation_goal: the name of the navigation goal to obtain the pose.
     type navigation_goal: str
